@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		419E099824566B4C00E48E47 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 419E099724566B4C00E48E47 /* main.cpp */; };
+		41B2466024F5478D00FAFE55 /* Algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41B2465F24F5478D00FAFE55 /* Algorithm.cpp */; };
+		41CC3C6B24F3707C00419F52 /* BankingSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41CC3C6924F3707C00419F52 /* BankingSystem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		419E099424566B4C00E48E47 /* gameProgrammingEx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gameProgrammingEx; sourceTree = BUILT_PRODUCTS_DIR; };
 		419E099724566B4C00E48E47 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		41B2465F24F5478D00FAFE55 /* Algorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Algorithm.cpp; sourceTree = "<group>"; };
+		41CC3C6924F3707C00419F52 /* BankingSystem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BankingSystem.cpp; sourceTree = "<group>"; };
+		41CC3C6A24F3707C00419F52 /* BankingSystem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BankingSystem.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +62,28 @@
 		419E099624566B4C00E48E47 /* gameProgrammingEx */ = {
 			isa = PBXGroup;
 			children = (
+				41B2465E24F5477200FAFE55 /* Algorithm */,
+				41CC3C6C24F3717A00419F52 /* BankingSystem */,
 				419E099724566B4C00E48E47 /* main.cpp */,
 			);
 			path = gameProgrammingEx;
+			sourceTree = "<group>";
+		};
+		41B2465E24F5477200FAFE55 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				41B2465F24F5478D00FAFE55 /* Algorithm.cpp */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		41CC3C6C24F3717A00419F52 /* BankingSystem */ = {
+			isa = PBXGroup;
+			children = (
+				41CC3C6924F3707C00419F52 /* BankingSystem.cpp */,
+				41CC3C6A24F3707C00419F52 /* BankingSystem.hpp */,
+			);
+			path = BankingSystem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				419E099824566B4C00E48E47 /* main.cpp in Sources */,
+				41B2466024F5478D00FAFE55 /* Algorithm.cpp in Sources */,
+				41CC3C6B24F3707C00419F52 /* BankingSystem.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
